@@ -1,0 +1,35 @@
+security:
+  oauth2:
+    client:
+      clientId:  282894062875041 #Harshesh Id #1336848609802188 
+      clientSecret: af1e2f3708fced357ffe5b650d27d508 #8d1b734e9ff2a5ff20ec272fd64fd281 #Harshesh Client Secret af1e2f3708fced357ffe5b650d27d508
+      accessTokenUri: https://graph.facebook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/me
+  
+  # Spring Boot configuration
+  
+  #---For Google---
+#spring:
+#  profiles:
+#    active: google
+# Spring Security configuration
+#security:
+#  oauth2:
+#    client:
+# #     clientId: <here is your client ID>
+ #     clientSecret: <here is your client secret>
+#      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      #userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      #clientAuthenticationScheme: form
+      #scope:
+       # - openid
+       # - email
+       # - profile
+#    resource:
+#      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+ #     preferTokenInfo: true

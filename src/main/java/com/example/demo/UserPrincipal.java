@@ -17,11 +17,11 @@ import com.example.demo.model.User;
  * @author Harshesh
  *
  */
-public class UserPrinciple implements UserDetails {
+public class UserPrincipal implements UserDetails {
 	
 	private User user;
 	
-	public UserPrinciple (User user) {
+	public UserPrincipal (User user) {
 		this.user = user;
 	}
 	

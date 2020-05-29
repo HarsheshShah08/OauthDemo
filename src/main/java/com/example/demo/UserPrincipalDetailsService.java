@@ -16,11 +16,11 @@ import com.example.demo.repository.UserRepository;
  *
  */
 @Service
-public class UserPrincipleDetailsService implements UserDetailsService {
+public class UserPrincipalDetailsService implements UserDetailsService {
 
 	private UserRepository userRepository;
 	
-	public UserPrincipleDetailsService(UserRepository userRepository) {
+	public UserPrincipalDetailsService(UserRepository userRepository) {
 		
 		this.userRepository = userRepository;
 		
@@ -31,7 +31,7 @@ public class UserPrincipleDetailsService implements UserDetailsService {
 
 
 		User user = this.userRepository.findByUsername(username);
-		UserPrinciple userPrinciple = new UserPrinciple(user);
+		UserPrincipal userPrinciple = new UserPrincipal(user);
 		
 		return userPrinciple;
 	}
