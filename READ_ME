@@ -4,17 +4,9 @@
   Integration with facebook Authentication Service using Outh2.0
  
  Future release requires:
- Login and New user registration - for all users
- BOM Generation - for permitted user
- Reference Data Upload which includes previous BOM, Material Master, and ALternative UOM Conversion -- for MANAGER permission
- Context path change for deployment
- ADMIN console for viewing all the users and applying the permission
+ 
  workflow for new user authorisation 
- automation testing
- automated deployment
- docker image 
- deployment on AWS
- JWT base authentication
+ 
  
  
  More advance research:
